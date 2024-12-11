@@ -1,0 +1,171 @@
+/* Main container styling */
+.main469 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main469::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/hero-image.jpg); /* Your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Adjust opacity for better visibility of text */
+    z-index: -1; /* Ensure background is below the content */
+}
+
+/* Styling for the nextTakerInfo text container */
+.nextTakerInfoContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Background styling */
+.nextTakerInfoContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/hero-image.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6); /* Optional: Darken the background for text visibility */
+    z-index: -1; /* Ensure it's behind the text */
+}
+
+/* Text styles with animations */
+.nextTakerInfoText {
+    font-size: 3rem; /* Large text size */
+    color: #000000; /* Black color */
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase text */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); /* Text shadow */
+    position: absolute;
+    animation: fadeIn 2s ease-in-out, floatText 3s infinite ease-in-out;
+}
+
+/* Fade-in animation for the text */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Floating effect for the text */
+@keyframes floatText {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Animation for moving cubes/rectangles */
+.cube {
+    position: absolute;
+    width: 60px; /* Cube size */
+    height: 60px;
+    background-color: rgba(214, 160, 160, 0.8); /* Red cube with some transparency */
+    animation: moveCube 5s linear infinite, rotateCube 3s linear infinite;
+}
+
+/* Keyframe animation for moving cubes/rectangles */
+@keyframes moveCube {
+    0% {
+        top: 10%;
+        left: 10%;
+    }
+    25% {
+        top: 30%;
+        left: 50%;
+    }
+    50% {
+        top: 60%;
+        left: 80%;
+    }
+    75% {
+        top: 80%;
+        left: 20%;
+    }
+    100% {
+        top: 10%;
+        left: 10%;
+    }
+}
+
+/* Keyframe animation for rotating the cubes/rectangles */
+@keyframes rotateCube {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Styling for a few other cubes */
+.cube2 {
+    position: absolute;
+    width: 100px; /* Rectangle size */
+    height: 50px;
+    background-color: rgba(141, 199, 141, 0.8); /* Green rectangle */
+    animation: moveCube2 5s linear infinite, rotateCube2 4s linear infinite;
+}
+
+/* Movement animation for cube2 */
+@keyframes moveCube2 {
+    0% {
+        top: 20%;
+        left: 80%;
+    }
+    25% {
+        top: 50%;
+        left: 30%;
+    }
+    50% {
+        top: 80%;
+        left: 10%;
+    }
+    75% {
+        top: 40%;
+        left: 60%;
+    }
+    100% {
+        top: 20%;
+        left: 80%;
+    }
+}
+
+/* Rotation animation for cube2 */
+@keyframes rotateCube2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

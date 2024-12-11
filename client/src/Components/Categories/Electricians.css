@@ -1,0 +1,103 @@
+.electricianMain9837 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .electricianMain9837::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Adjust opacity here */
+    z-index: -1; /* Ensures the image is behind the content */
+  }
+  
+  .electricianContainer9837 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    /* margin-top: -500px;  */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .electricianButton9837 {
+    background-color: #556270;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .electricianButton9837:hover {
+    background-color: #33495e;
+  }
+  
+  .electricianList9837 {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .electricianListItem9837 {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #bcccdc;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+  }
+  
+  .electricianEmail9837 {
+    font-size: 16px;
+    color: #33495e;
+    margin-bottom: 10px;
+  }
+  
+  .electricianLinkButton9837 {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .electricianLinkButton9837:hover {
+    color: #33495e;
+  }
+  
+  .electricianSuccessMessage9837 {
+    color: green;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .electricianNoResults9837 {
+    color: #556270;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

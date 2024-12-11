@@ -1,0 +1,78 @@
+/* Unique random class names to avoid conflict */
+.main-video-taker-7642 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f7fa; /* Subtle light blue for the background */
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.video-taker-box-7642 {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.video-taker-box-7642 h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #444444;
+    text-align: center;
+}
+
+.video-taker-box-7642 input,
+.video-taker-box-7642 textarea,
+.video-taker-box-7642 button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Arial', sans-serif;
+}
+.betee{
+    display: flex;
+    justify-content: center;
+}
+.video-taker-box-7642 button{
+    width: 30%;
+
+}
+
+.video-taker-box-7642 input:focus,
+.video-taker-box-7642 textarea:focus {
+    border-color: #0f5d69; /* Cyan border for focus */
+    box-shadow: 0 0 5px rgba(38, 86, 94, 0.5);
+}
+
+.video-taker-box-7642 textarea {
+    resize: none;
+    height: 80px; /* Default height for textarea */
+}
+
+.video-taker-box-7642 span {
+    display: block;
+    font-size: 12px;
+    color: red;
+    margin-top: -5px;
+}
+
+.video-taker-box-7642 button {
+    background-color: #556270; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.video-taker-box-7642 button:hover {
+    background-color: #33495E;
+}

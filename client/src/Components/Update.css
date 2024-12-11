@@ -1,0 +1,69 @@
+
+/* Unique random class names for the Update component */
+
+
+
+.update-product-7624 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fb;
+    padding: 40px;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.update-product-7624 h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputx {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.inputx:focus {
+    border-color: #353f4b;
+    box-shadow: 0px 4px 8px rgba(50, 59, 68, 0.2);
+}
+
+.appButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #556270;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    width: 12%;
+}
+
+.appButton:hover {
+    background-color: #33495E;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .inputx {
+        max-width: 90%;
+    }
+
+    .appButton {
+        width: 90%;
+        text-align: center;
+    }
+}

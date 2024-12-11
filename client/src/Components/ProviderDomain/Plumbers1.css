@@ -1,0 +1,82 @@
+.plumberContainer12345 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .plumberContainer12345::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: -1;
+  }
+  
+  .filterButton67890 {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #556270;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filterButton67890:hover {
+    background-color: #33495E;
+  }
+  
+  .productCardsContainer23456 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .productCard34567 {
+    background-color: #BCCCDC;
+    color: #333;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .productCard34567:hover {
+    transform: scale(1.05);
+  }
+  
+  .productCard34567 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .productCard34567 p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .noResults45678 {
+    font-size: 18px;
+    color: #556270;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

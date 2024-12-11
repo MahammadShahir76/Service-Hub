@@ -1,0 +1,88 @@
+/* Container for the entire reviews page */
+.show-reviews-container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header for the reviews page */
+  .header2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for review cards */
+  .reviews-grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual review card */
+  .review-card2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .review-card2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Review title styling */
+  .review-title2 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Description text style */
+  .description2 {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* No reviews found message */
+  .no-reviews2 {
+    text-align: center;
+    color: #888;
+    font-size: 1.5rem;
+  }
+  /* Back to home button container */
+.show-reviews-container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  text-align: center; /* Ensure everything aligns centrally */
+}
+
+/* Back to home button */
+.back-button2 {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #4d5863;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button2:hover {
+  background-color: #3b4550;
+  transform: scale(1.05);
+}

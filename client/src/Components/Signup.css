@@ -1,0 +1,69 @@
+/* Unique random class names to avoid conflict */
+.main-signup-7834 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9; /* Light background for a clean look */
+    font-family: 'Arial', sans-serif;
+}
+
+.sign-up-7834 {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.sign-h1-7834 h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.sign-up-7834 input,
+.sign-up-7834 select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.sign-up-7834 input:focus,
+.sign-up-7834 select:focus {
+    border-color: #556270;;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.sign-up-7834 button {
+    width: 30%;
+    padding: 12px;
+    background-color:#556270;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.sign-up-7834 button:hover {
+    background-color: #33495E;
+}
+
+.sign-up-7834 select {
+    background-color: #f9f9f9;
+    appearance: none; /* Remove default dropdown arrow for consistency */
+    font-size: 14px;
+    color: #333333;
+}
+
+.sign-up-7834 select:focus {
+    background-color: #ffffff;
+}

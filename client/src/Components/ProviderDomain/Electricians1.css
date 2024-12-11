@@ -1,0 +1,54 @@
+.electriciansContainer11223 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .filterButton44556 {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #556270;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filterButton44556:hover {
+    background-color: #33495E;
+  }
+  
+  .itemsList88900 {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+  }
+  
+  .itemDetail66778 {
+    font-size: 14px;
+    color: #2c3e50;
+    margin: 8px 0;
+  }
+  
+  .noItemsFound33445 {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  

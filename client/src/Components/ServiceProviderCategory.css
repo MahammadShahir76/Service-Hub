@@ -1,0 +1,105 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Container Styling */
+.service-provider-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Card Container Styling */
+  .card-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjusted for 4 per row */
+    gap: 20px;
+    justify-content: center;
+    /* margin: 20px 0; */
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  /* Card Styling */
+  .card1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Unique Icons Styling */
+  .card1.plumbers .icon {
+    color: #3498db;
+  }
+  
+  .card1.electricians .icon {
+    color: #f39c12;
+  }
+  
+  .card1.ac-mechanics .icon {
+    color: #1abc9c;
+  }
+  
+  .card1.mechanics .icon {
+    color: #9b59b6;
+  }
+  
+  .card1.carpenters .icon {
+    color: #e67e22;
+  }
+  
+  .card1.pest-control .icon {
+    color: #e74c3c;
+  }
+  
+  .card1.painters .icon {
+    color: #2ecc71;
+  }
+  
+  /* Button Link Styling */
+.link-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #556270; /* Button background color */
+    color: white; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .link-button1:hover {
+    background-color: #556270; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  

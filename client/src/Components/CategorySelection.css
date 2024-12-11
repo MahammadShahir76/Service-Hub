@@ -1,0 +1,171 @@
+.categoryContainer8421 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* background-color: #BCCCDC; */
+    gap:30px ;
+  }
+  
+  .categoryBox8421 {
+    background-color: #BCCCDC;
+    color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .categoryBox8421:hover {
+    transform: scale(1.05);
+  }
+  
+  .categoryImage8421 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .categoryBox8421 h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .categoryBox8421 p {
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+
+  }
+  
+  .categoryBox8421 a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #556270 ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .categoryBox8421 a:hover {
+    background-color: #33495E;
+  }
+  
+  .emergencyButton8421 {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #556270;
+    color: #fff;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;  }
+  
+  .emergencyButton8421:hover {
+    background-color: #33495E;
+  }
+  
+  .emergencyCandidates8421 {
+    margin-top: 20px;
+  }
+  
+   .main566{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+   }
+
+
+   .main566::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Adjust opacity here */
+    z-index: -1; /* Ensures the image is behind the content */
+}
+
+
+   .main-sub566{
+    display: flex;
+    flex-direction: column;
+   }
+
+   
+   .categoryBox8421 img {
+    width: 70px; /* Ensures it takes full width of the container */
+    height:70px; /* Keeps the fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-top-left-radius: 10px; /* Optional: Match the container's border radius */
+    border-top-right-radius: 10px; /* Optional: Match the container's border radius */
+    margin-top: 10px;
+}
+
+.emergencyCandidates8421 {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background for contrast */
+    border-radius: 10px;
+    width: 80%; /* Adjust based on your layout */
+    max-width: 900px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergencyCandidates8421 ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 20px 0;
+    border: 1px solid #bcccdc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    color: #333; /* Dark text for readability */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergencyCandidates8421 ul li {
+    margin: 8px 0; /* Add spacing between list items */
+    font-size: 16px; /* Adjust font size */
+}
+
+.emergencyCandidates8421 h1 {
+    text-align: center;
+    color: #556270; /* Same color as button for consistency */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.emergencyCandidates8421 ul li:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternate row colors for better readability */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.emergencyCandidates8421 ul li:nth-child(even) {
+    background-color: #eef2f6; /* Subtle contrast for even rows */
+    padding: 8px;
+    border-radius: 5px;
+}
